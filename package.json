@@ -1,0 +1,17 @@
+{
+  "name": "go_vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "vercel login && vercel link",
+    "start": "vercel dev",
+    "dev": "npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vercel": "^34.1.1"
+  }
+}
